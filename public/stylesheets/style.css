@@ -15,13 +15,6 @@ body{
   max-width: 900px;
   margin: auto;
 }
-.contacto h2{
-  font-size: 48px;
-  font-family: 'Righteous';
-  text-align: center;
-  padding: 40px 0;
-
-}
 .contacto .fila{
   display:flex;
    }
@@ -68,7 +61,7 @@ transition: 1s;
 width: 100%;
 }
 .contacto .col img{
-  width: 100%
+  width: 100%;
 }
 .contacto .col .info{
 position: absolute;
