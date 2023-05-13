@@ -5,7 +5,35 @@
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <form action="/" method="post">  
+   <section class="contacto" id="contacto">
+            <div class="contenido-seccion">
+               <h2></h2>
+               <div class="fila">
+                 
+              
+              <div class="col">
+
+             <div>
+                <label for="name" id="name">Nombre</label>
+                <input type="text" placeholder="Tu Nombre" >
+             </div>
+            <div>
+               <label for="email" id="email">Email</label>
+                <input type="email" placeholder="correo">
+            </div>
+            <div>
+               <label for="comment" id="comment">Comentario</label>
+                 <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Mensaje">
+                    
+                 </textarea>
+            </div>
+              <button>
+                        Enviar <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                     </button>
+                  </div>
+                  </section>
+               </form>
   </body>
 </html>
